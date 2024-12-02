@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* 1. CSS Selectors */
+body {
+    font-family: Arial, sans-serif; /* Typography */
+    margin: 0;
+    padding: 0;
+    background-color: #afa8a8; /* Background color */
+}
+img{
+    position: absolute;
+    left:0;
+   width:100px;
+   border-radius: 30px;
+}
+.home{
+    color: #0f0e0e;
+    font-size: large;
+    padding: 20px; /* Padding */
+    text-align: center; /* Text alignment */
+}
+/* 2. Box Model Properties */
+header{
+    background-color: #0f0e0e; /* Background color */
+    color: white; /* Text color */
+}
+.main {
+    
+    padding: 20px; /* Padding */
+    text-align: center; /* Text alignment */
+}
+.right{
+    position: absolute;
+    top:0;
+    right:0;
+}
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+/* 3. Typography */
+h1, h2, h3 {
+    margin: 10px 0; /* Margin */
+}
+
+h1 {
+    font-size: 2.5em; /* Font size */
+}
+
+h2 {
+    font-size: 2em; /* Font size */
+}
+
+/* 4. Color and Backgrounds */
+.login {
+    background-color: rgb(194, 188, 188); /* Background color */
+    border: 1px solid #ccc; /* Border */
+    margin: 10px; /* Margin */
+    padding: 15px; /* Padding */
+    transition: box-shadow 0.3s ease; /* Transition */
+    text-align: center;
+    size:1000px;
+}
+input{
+    background-color: rgb(224, 217, 217); /* Background color */
+    border: 1px solid #ccc; /* Border */
+    margin: 10px; /* Margin */
+    padding: 15px; /* Padding */
+    transition: box-shadow 0.3s ease; /* Transition */
+    text-align: center;
+}
+/* 5. Layout Techniques */
+input:hover {
+    box-shadow: 0 4px 8px rgba(226, 4, 4, 0.2); /* Box shadow on hover */
+}
+.sign{
+    background-color: rgb(224, 217, 217); /* Background color */
+    border: 1px solid #ccc; /* Border */
+    text-align: center;
+}
+/* Flexbox for services section */
+.log{
+	width: 170px;
+	height: 45px;
+	padding: 15px 30px;
+	font-size: 15px;
+}
+.log:hover{ 
+	background-color: #808040;
+}
+
+/* 6. Responsive Design */
+@media (max-width: 600px) {
+    #services {
+        flex-direction: column; /* Stack services vertically */
+    }
+}
+
+/* 7. Transitions and Animations */
+
+/* 8. Miscellaneous */
+footer {
+    text-align: center; /* Text alignment */
+    padding: 20px; /* Padding */
+    background-color: #0f0e0e; /* Background color */
+    color: white; /* Text color */
+}
+
+/* 9. CSS Frameworks (optional) */
+/* You can include Bootstrap or any other framework here if needed */
